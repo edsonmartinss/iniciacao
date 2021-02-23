@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <section id=login-box>
+      <div class="loginForm">
+        <form>
+          <h1 class="headingText">Cadastro</h1>
+          <label class="emailLabel" for="email">E-mail</label>
+          <input class="emailInput" type="email" idea id="email" required>
+          <label class="passwordLabel" for="password">Senha</label>
+          <input class="passwordInput" type="password" idea id="senha" minlength="8" required></input>
+
+          <label class="passwordLabel" for="password">Confirmar senha</label>
+          <input class="passwordInput" type="password" idea id="senha" minlength="8" required></input>
+          
+          <input class="submitInput" type="submit" value="Cadastrar">
+          <div class="register">
+           <a class="registerRedirect" href="./signup.html">Já possui conta? Faça o login</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="https://unpkg.com/vue@next"></script>
+  </body>
+</html>

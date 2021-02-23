@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <section id=login-box>
+      <div class="loginForm">
+        <form>
+          <h1 class="headingText">Login</h1>
+          <label class="emailLabel" for="email">E-mail</label>
+          <input class="emailInput" type="email" idea id="email" required>
+          <label class="passwordLabel" for="password">Senha</label>
+          <input class="passwordInput" type="password" idea id="senha" minlength="8" required></input>
+          <div class="remember">
+            <input class="rememberMeInput" type="checkbox" name="rememberMe" value="Bike">
+            <label class="rememberMe" for="rememberMe">Lembre-se de mim</label><br>
+          </div>
+          <input class="submitInput" type="submit" value="Login">
+          <div class="register">
+           <a class="registerRedirect" href="./signup.html">Ainda não possui conta? Cadastre-se</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="https://unpkg.com/vue@next"></script>
+  </body>
+</html>
